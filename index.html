@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        section { padding: 60px 20px; }
+        nav { position: fixed; top: 0; width: 100%; background: #333; color: #fff; padding: 10px 20px; }
+        nav a { color: #fff; margin-right: 15px; text-decoration: none; }
+        .hero { background: #f4f4f4; text-align: center; padding-top: 100px; }
+        .contact form { display: flex; flex-direction: column; max-width: 400px; margin: auto; }
+        .contact input, .contact textarea { margin-bottom: 10px; padding: 10px; }
+        .contact button { padding: 10px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="hero" class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Full Stack Developer</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel magna at dui luctus lacinia.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <p>Project examples will go here.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
